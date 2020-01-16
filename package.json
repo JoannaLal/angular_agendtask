@@ -27,7 +27,7 @@
     "@fullcalendar/resource-timegrid": "^4.3.0",
     "@mobiscroll/angular-lite": "^4.9.0",
     "@syncfusion/ej2-angular-calendars": "^17.4.43",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "date-fns": "^2.9.0",
     "fullcalendar": "^3.10.1",
     "jquery": "^3.4.1",
