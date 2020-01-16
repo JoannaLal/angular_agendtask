@@ -1,0 +1,72 @@
+<div id="headerFormInsc">
+  <div id="logo">
+    <i class="fas fa-users fa-3x"></i>
+    <p>Agendtask<p>
+  </div>
+  <div id="title">
+     <h1>Inscription à l'AGENDTASK</h1>
+  </div>
+</div>
+
+<div id="centreBlc">
+<article>
+  <form method="POST" action="http://localhost:8080/gestionnaireProJEE/adduser" > <!--(submit)="addUser(form)" #form="ngForm"-->
+    <div class="flexInline">
+      <label>Nom d'utilisateur:</label>
+      <div class="champsForm">
+        <input type="text" name="pseudo"placeholder="Nom d'utilisateur" required
+               [(ngModel)]="user._pseudo" #inputName="ngModel" />
+        <p  *ngIf="inputName.touched && inputName.getError('required')">
+          Le nom d'utilisateur est obligatoire
+        </p>
+      </div>
+    </div>
+    <div class="flexInline">
+      <label>Email:</label>
+      <div class="champsForm">
+        <input type="text" name="email"  placeholder="Email" required
+                [(ngModel)]="user._email" #inputEmail="ngModel" />
+        <p  *ngIf="inputEmail.touched && inputEmail.getError('required')">
+          L'addresse email est obligatoire
+        </p>
+      </div>
+    </div>
+    <div class="flexInline">
+      <label>Mot de passe:</label>
+      <div class="champsForm">
+        <input type="password" name="password"  placeholder="Mot de passe" required
+               [(ngModel)]="user._password" #inputPassword="ngModel" />
+        <p *ngIf="inputPassword.touched && inputPassword.getError('required')">
+          Le mot de passe est obligatoire
+        </p>
+      </div>
+    </div>
+    <div class="flexInline">
+      <label >Confirmation de mot de passe:</label>
+      <div class="champsForm">
+        <input type="password" name="confPass"  placeholder="Confirmation mot de passe" required
+               [(ngModel)]="user._password" #inputConfPass="ngModel" />
+        <p  *ngIf="inputConfPass.touched && inputConfPass.getError('required')">
+          Veuillez confirmer votre mot de passe
+        </p>
+      </div>
+    </div>
+    <div class="flexInline">
+      <label>Date de naissance (Facultatif):</label>
+      <div class="champsForm">
+        <input type="date" name="birthday"
+               [(ngModel)]="user._birthday" #inputBirthday="ngModel" />
+      </div>
+    </div>
+    <div class="flexInline">
+      <input type="checkbox" name="cgu" required/>
+      <label id="cgu" for="cgu">J'accepte les <a href="#">conditions générales d'utilisation</a></label>
+    </div>
+    <div>
+      <div id="btnInscri">
+        <input type="submit" name="send" value="Inscription" /><!--[disabled]="form.invalid"-->
+      </div>
+    </div>
+  </form>
+</article>
+</div>

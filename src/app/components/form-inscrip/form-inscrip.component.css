@@ -1,0 +1,73 @@
+#headerFormInsc{
+  display: flex;
+  flex-direction: row;
+  background-color: #2c95d8;
+}
+
+#logo{
+  color:white;
+  background-color:#2c95d8;
+  margin: 0.6rem;
+  border: 2px solid white;
+  padding: 0.2rem;
+  border-radius: 10px;
+  height: 85px;
+}
+
+i{
+  margin: 8px 10px 0 10px;
+}
+p{
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  margin: 0;
+}
+
+#title{
+  height: 15%;
+ padding-top: 2rem;
+  padding-left: 20rem;
+}
+
+#centreBlc{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 5rem;
+}
+
+.flexInline{
+  display: flex;
+  flex-direction: row;
+}
+
+label{
+  width: 25rem;
+  padding: 2rem;
+}
+
+.champsForm{
+  width: 25rem;
+  padding: 2rem;
+}
+
+.champsForm input{
+  width: 15rem;
+}
+
+#btnInscri input{
+  width:10rem;
+  margin-left:40%;
+}
+
+#cgu{
+  font-size: 1rem;
+}

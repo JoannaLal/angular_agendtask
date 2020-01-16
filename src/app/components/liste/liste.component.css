@@ -1,0 +1,97 @@
+.lstpuce li{
+  margin:0.5rem;
+}
+
+#list{
+  display:flex;
+  flex-direction: row;
+}
+
+.itemLst{
+  width: 100%;
+  height: max-content;
+  margin: 0.6rem;
+  padding: 1rem;
+}
+
+.borderDiv{
+  background-color: white;
+  border:1px solid #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 8px 8px 1px 1px rgba(211,211,211, .3);
+  margin:6px 4px 4px 10px;
+  padding: 5px;
+}
+
+.petiteFl{
+  float:right;
+  color: grey;
+}
+
+.bleu{
+  color:blue;
+}
+.rouge{
+  color:red;
+}
+.vert{
+  color:green;
+}
+.jaune{
+  color:yellow;
+}
+.violet{
+  color:purple;
+}
+
+.lstpuce li{
+  margin:0.5rem;
+}
+
+.ajoutLst{
+  height: 1rem;
+}
+
+.lstinput{
+  margin-left: 0.5rem;
+  width: 19rem;
+  height: 2rem;
+  border:1px solid #DCDCDC;
+  border-radius: 8px;
+}
+
+.ajout{
+  color:grey;
+  position:relative;
+  bottom: 2rem;
+  left: 17.5rem;
+}
+
+.plus{
+  color: grey;
+  position:relative;
+  bottom: 0.6rem;
+  left: 8.7rem;
+}
+
+ul{
+  padding:0;
+}
+
+li{
+  list-style-type: none;
+  height: 2rem;
+  margin:1rem;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+i{
+  margin: 0.5rem;
+}
+h2{
+  text-align: center;
+}

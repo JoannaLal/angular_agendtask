@@ -1,0 +1,156 @@
+#asideD{
+  width:15rem;
+  height:99%;
+
+}
+
+ul{
+  padding:0;
+}
+
+li{
+  list-style-type: none;
+  height: 2rem;
+  margin:1rem;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.borderDiv{
+  background-color: white;
+  border:1px solid #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 8px 8px 1px 1px rgba(211,211,211, .3);
+  margin:6px;
+  padding: 5px;
+}
+.noMarg{
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0.2rem;
+}
+
+.divCal{
+  width: 20px;
+  height: 20px;
+  border:1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  margin:2px;
+}
+
+
+#bleu{
+  background-color: blue;
+}
+#rouge{
+  background-color: red;
+}
+#orange{
+  background-color: orange;
+}
+#jaune{
+  background-color: yellow;
+}
+#violet{
+  background-color: purple;
+}
+
+#newCal{
+  color: grey;
+}
+
+i{
+  margin: 0.5rem;
+}
+
+h2{
+  text-align: center;
+}
+
+#createNewAgenda
+{
+  display: none;
+  position: fixed;
+  top:0; right:0; bottom:0; left:0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+#createNewAgenda:target
+{
+  display: block;
+}
+
+.popup_newAgenda{
+  background: #fff;
+  padding: 15px;
+  border: 15px solid #d0ebff;
+  position: relative;
+  margin: 10% auto;
+  width: 35rem;
+  height: 32rem;
+  box-shadow: 0px 0px 20px #000;
+  border-radius: 10px;
+}
+
+.close{
+  float: right;
+  margin: -20px -20px 0 0;
+}
+
+.formLab{
+  font-size: 1.2rem;
+  vertical-align: top;
+  display:inline-block;
+  width: 12rem;
+}
+.champsForm{
+  width: 15rem;
+  height: 2rem;
+  border:1px solid #DCDCDC;
+  border-radius: 8px;
+}
+
+.lstFlex{
+  display:flex;
+  flex-direction: row;
+}
+
+#circle i{
+  margin:0;
+}
+
+.bleu{
+  color:blue;
+}
+.rouge{
+  color:red;
+}
+.vert{
+  color:green;
+}
+.jaune{
+  color:yellow;
+}
+.violet{
+  color:purple;
+}
+
+.btnSubmit{
+  font-size: 1rem;
+  text-align: center;
+  width: 8rem;
+  height: 2rem;
+  background-color: #d0ebff;
+  border:1px solid #D3D3D3;
+  border-radius: 10px;
+}
+
+.gris{
+  color: grey;
+}

@@ -1,0 +1,71 @@
+#repertoire{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.borderDiv{
+  background-color: white;
+  border:1px solid #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 8px 8px 1px 1px rgba(211,211,211, .3);
+  margin:6px 4px 4px 10px;
+  padding: 5px;
+}
+
+#divNewContact{
+  width: 25rem;
+}
+
+.flexJust{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.iconGris{
+  color:grey;
+  padding-top: 10px;
+}
+
+#showContact{
+  width:59%;
+}
+
+.detailsContact{
+  padding-left: 0.5rem;
+}
+
+.contactLab, .contactInfo, .iContact{
+  display: inline-block;
+}
+
+.contactLab{
+  width: 35%;
+}
+.contactInfo{
+  width: 47%
+}
+
+ul{
+  padding:0;
+}
+
+li{
+  list-style-type: none;
+  height: 2rem;
+  margin:1rem;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+i{
+  margin: 0.5rem;
+}
+h2{
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+  display:flex;
+  flex-direction: row;
+  height: 85%;
+}
+
+app-aside-g{
+  min-width:15%;
+  height: 90%;
+  position: absolute;
+  left: 0;
+}
+
+app-comp-principal{
+  width:69.5%;
+  position: absolute;
+  left: 14.8rem;
+  height: 90%;
+}
+
+app-aside-d{
+  width:15%;
+  position: absolute;
+  left: 84rem;
+}
+

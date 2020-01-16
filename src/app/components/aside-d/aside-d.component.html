@@ -1,0 +1,56 @@
+<aside id="asideD">
+  <div class="borderDiv">
+    <nav>
+      <!--  Menu de gauche => Mes Agendas -->
+      <!--TODO couleur div -->
+      <h2>Mes Agendas</h2>
+      <ul>
+        <li class="noMarg"><hr/></li>
+        <li><a href="#"><div id="bleu" class="divCal"></div>Agenda Principal</a></li>
+        <li><a href="#"><div id="rouge" class="divCal"></div>Famille</a></li>
+        <li><a href="#"><div id="orange" class="divCal"></div>Travail</a></li>
+        <li><a href="#"><div id="jaune" class="divCal"></div>Amis</a></li>
+        <li><a href="#"><div id="violet" class="divCal"></div>Club de Théatre</a></li>
+        <li class="noMarg"><hr/></li>
+        <li><a href="#createNewAgenda"><i class="fas fa-plus-circle" id="newCal"></i>Créer Agenda</a></li>
+      </ul>
+    </nav>
+  </div>
+</aside>
+<div id="createNewAgenda">
+  <div class="popup_newAgenda">
+    <a class="close" href="home"><i class="far fa-times-circle fa-2x gris"></i></a>
+    <h2>Créer un nouvel evenement</h2>
+    <form action="" method="" >
+      <ul>
+        <li>
+          <label class="formLab">Titre:</label>
+          <input type="text" name="titre" class="champsForm"/>
+        </li>
+        <li class="lstFlex">
+          <label class="formLab" >Choisir une couleur:</label>
+          <div id="circle">
+            <i class="far fa-circle fa-2x bleu"></i>
+            <i class="far fa-circle fa-2x rouge"></i>
+            <i class="far fa-circle fa-2x vert"></i>
+            <i class="far fa-circle fa-2x jaune"></i>
+            <i class="far fa-circle fa-2x violet"></i>
+          </div>
+        </li>
+        <li>
+          <label class="formLab">Invités:</label>
+          <select class="" name="" class="champsForm">
+            <!--TODO option -->
+            <option>-Selectionnez les invités-</option>
+            <option>Ali</option>
+            <option>Paul</option>
+            <option>Joanna</option>
+          </select>
+        </li>
+        <li>
+          <button type="submit" class="btnSubmit">Enregistrer</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>

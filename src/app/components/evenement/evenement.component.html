@@ -1,0 +1,190 @@
+<section id="event">
+  <a href="#addEvent" class="items borderDiv">
+    <h2>Créer un événement</h2>
+    <img src="/assets/img/calendrierVector.jpg" id="imgAddEvent">
+  </a>
+  <a href="#invitationEvent" class="items borderDiv">
+    <h2>Mes invitations</h2>
+    <img src="/assets/img/horloge.jpg" id="imgWaitingEvent">
+  </a>
+  <a href="#eventToCome" class="items borderDiv">
+    <h2>Mes évenements</h2>
+    <img src="/assets/img/postIt.jpg" id="imgEventToComeUp">
+  </a>
+</section>
+
+<!--  Ajouter un nouvel Evenement -->
+<div id="addEvent">
+  <div class="popup_newEvent">
+    <a class="close" href="evenement"><i class="far fa-times-circle fa-2x croix"></i></a>
+    <h2>Créer un nouvel evenement</h2>
+    <form action="" method="" >
+      <ul>
+        <li>
+          <label class="formLab" for="titre">Titre:</label>
+          <input type="text" name="titre" class="champsForm"/>
+        </li>
+        <li>
+          <label class="formLab" for="date">Date:</label>
+          <input type="date" name="date" class="champsForm"/>
+        </li>
+        <li>
+          <label class="formLab" for="heure">Heure:</label>
+          <input type="time" placeholder="00:00" name="heure" class="champsForm"/>
+        </li>
+        <li>
+          <label class="formLab" for="lieu">Lieu:</label>
+          <input type="text" name="lieu" value="" class="champsForm">
+        </li>
+        <li>
+          <label class="formLab" for="invites">Invités:</label>
+          <select class="selectForm" name="" class="champsForm">
+            <!--TODO option -->
+            <option>-Selectionnez les invités-</option>
+            <option>Ali</option>
+            <option>Paul</option>
+            <option>Joanna</option>
+          </select>
+        </li>
+        <li>
+          <label class="formLab" for="description">Description:</label>
+          <textarea name="lieu" class="aeraForm" rows="4" cols="30"></textarea>
+        </li>
+        <li>
+          <button type="submit" class="btnSubmit">Enregistrer</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>
+<!--  Invitations à des  Evenements -->
+<!--<div id="invitationEvent">
+  <div class="popup_invitEvent">
+    <a class="close" href="#noWhere"><i class="far fa-times-circle fa-2x croix"></i></a>
+    <h2>Mes invitations</h2>-->
+    <!--TODO boucle pour afficher evenements -->
+    <!--  Nav des invitations aux évenements -->
+    <!--<div id="ongletsEvent">
+      <ul id="flexOnglets">
+        <li class="onglets" onClick="selView(1, this)">Toutes</li>
+        <li class="onglets" onClick="selView(2, this)">Acceptées</li>
+        <li class="onglets" onClick="selView(3, this)">En Attente</li>
+        <li class="onglets" onClick="selView(4, this)">Refusées</li>
+      </ul>
+    </div>
+    <div id="tabcontent">-->
+      <!--  Onglet 'Toutes' -->
+     <!-- <div id="allEvents" class="tabpanel" style="display:inline">
+        <ul>
+          <li class="lstEvent">
+            <div>
+              <h4>Nouvel An 1</h4>
+              <p>Le <em>31/12/19</em> à <em>20h</em> <small>- invité par <em>Marion</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Sortie cinéma</h4>
+              <p>Le <em>14/01/20</em> à <em>22h</em> <small>- invité par <em>Cédric</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Anniversaire de Francis</h4>
+              <p>Le <em>28/01/20</em> à <em>19h</em> <small>- invité par <em>Francis</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Bowling</h4>
+              <p>Le <em>02/02/20</em> à <em>19h30</em> <small>- invité par <em>Léa</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+        </ul>
+      </div>-->
+      <!--  Onglet 'Acceptées' -->
+      <!--<div id="eventOk" class="tabpanel" style="display:none">
+        <ul>
+          <li class="lstEvent">
+            <div>
+              <h4>Nouvel An 2</h4>
+              <p>Le <em>31/12/19</em> à <em>20h</em> <small>- invité par <em>Marion</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Sortie cinéma</h4>
+              <p>Le <em>14/01/20</em> à <em>22h</em> <small>- invité par <em>Cédric</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Anniversaire de Francis</h4>
+              <p>Le <em>28/01/20</em> à <em>19h</em> <small>- invité par <em>Francis</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+        </ul>
+      </div>-->
+      <!--  Onglet 'En Attente' -->
+    <!--  <div id="waitEvent" class="tabpanel" style="display:none">
+        <ul>
+          <li class="lstEvent">
+            <div>
+              <h4>Sortie cinéma</h4>
+              <p>Le <em>14/01/20</em> à <em>22h</em> <small>- invité par <em>Cédric</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Anniversaire de Francis</h4>
+              <p>Le <em>28/01/20</em> à <em>19h</em> <small>- invité par <em>Francis</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Bowling</h4>
+              <p>Le <em>02/02/20</em> à <em>19h30</em> <small>- invité par <em>Léa</em></small></p>
+            </div>
+            <a href="show_event.html"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+        </ul>
+      </div>-->
+      <!--  Onglet 'Refusées' -->
+      <!--<div id="refusEvent" class="tabpanel" style="display:none">
+        <ul>
+          <li class="lstEvent">
+            <div>
+              <h4>Sortie cinéma</h4>
+              <p>Le <em>14/01/20</em> à <em>22h</em> <small>- invité par <em>Cédric</em></small></p>
+            </div>
+            <a href="#"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+          <li class="lstEvent">
+            <div>
+              <h4>Anniversaire de Francis</h4>
+              <p>Le <em>28/01/20</em> à <em>19h</em> <small>- invité par <em>Francis</em></small></p>
+            </div>
+            <a href="#"><button class="btnShowEvent">Voir l'évenement</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>-->
+<!--  Liste de Mes Evenements (evenements que J'AI créés) -->
+<!--<div id="eventToCome">
+  <div class="popup_eventCome">
+    <a class="close" href="#noWhere"><i class="far fa-times-circle fa-2x croix"></i></a>
+    <h2>Mes évenements</h2>
+    <p>Vous n'avez créé aucun événement pour le moment.</p>
+  </div>
+</div>-->
